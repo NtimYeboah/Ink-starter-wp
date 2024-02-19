@@ -26,7 +26,7 @@ if ($primary_posts->have_posts()):
                 </div>
                 <div>
                     <div class="h-5 mt-2">
-                        <h2 class="font-saira font-bold text-xl dark:text-gray-200">Latest Articles</h2>
+                        <h2 class="font-saira font-bold text-xl dark:text-gray-200"><?php _e('Latest Article', 'ink'); ?></h2>
                     </div>
                 </div>
             </div>
@@ -77,7 +77,7 @@ if ($tips_query->have_posts()):
                 </div>
                 <div>
                     <div class="h-5 mt-2">
-                    <h2 class="font-saira font-bold text-xl dark:text-gray-200">Tips & Snippets</h2>
+                    <h2 class="font-saira font-bold text-xl dark:text-gray-200"><?php _e('Tips & Snippets', 'ink'); ?></h2>
                     </div>
                 </div>
             </div>
